@@ -1,0 +1,12 @@
+footer{
+    font-size: 12px;
+    text-align: center;
+    color: grey;
+    margin: 30px;
+}
+@media screen and (max-width: 600px) {
+    footer{
+        font-size: 10px;
+        margin: 15px;
+    }
+}

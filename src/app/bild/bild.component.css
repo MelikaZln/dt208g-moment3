@@ -1,0 +1,18 @@
+ 
+img {
+    max-width: 500px ;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 40px;
+}
+.containerImage{
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    img{
+        max-width: 450px;
+    }
+
+}

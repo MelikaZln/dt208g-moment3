@@ -1,0 +1,30 @@
+<h2>Konvertera!</h2>
+
+<div class="formular">
+    <div>
+        <label for="meter" >Meter:</label>
+        <input placeholder="Meter" type="number" id="meter" [(ngModel)] = 'meter'>
+    </div>
+    <div>
+        <label for="feet">Feet:</label>
+        <input type="number" id="feet" [(ngModel)] = 'feet'>
+    </div>
+    <button class="convertBtn" (click)=" feetM()" >Feet to meter!</button> 
+    <button class="convertBtn"  (click)=" mFeet()" >Meter to feet!</button>
+</div>
+<div class="formular">
+    <div>
+        <label for="celcius">Celcius:</label>
+        <input type="number" id="celcius" [(ngModel)] = 'celcius'>
+    </div>
+    <div>
+        <label for="farenheit">Farenheit:</label>
+        <input type="number" id="farenheit" [(ngModel)] = 'farenheit'>
+    </div>
+    <div>
+    
+        <button  class="convertBtn" (click)=" cFarenheit()" >Celcius to Farenheit!</button>
+        <button  class="convertBtn" (click)=" farenheitC()" >Farenheit to celcius!</button>
+    </div>
+
+</div>

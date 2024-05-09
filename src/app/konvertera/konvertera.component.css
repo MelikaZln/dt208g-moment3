@@ -1,0 +1,52 @@
+.formular{
+    background-color: rgb(229, 217, 201);
+    max-width: 600px;
+    text-align: center ;
+    margin: 0 auto;
+    display: block;
+    padding: 40px;
+    border-radius: 40px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+label{
+    color:rgb(190, 138, 5);
+    font-size: 22px;
+    margin-right: 5px;
+}
+input{
+    color: grey;
+    border-radius: 10px;
+    border: 0;
+    margin-bottom: 14px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.convertBtn{
+
+    margin: 20px;
+    width: 120px;
+}
+@media screen and (max-width: 600px) {
+    .formular{ 
+        max-width: 450px;
+        padding: 20px;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+    label{
+
+        font-size: 18px;
+        margin-right: 5px;
+    }
+    input{
+
+        margin-bottom: 12px;
+        font-size: 18px;
+    }
+    .convertBtn{
+
+        margin:8px;
+        width: 80px;
+    }
+}
